@@ -23,9 +23,9 @@ pipeline {
                             type: 'war'
                         ]
                     ], 
-                    credentialsId: 'nexus3', 
-                    groupId: 'in.javahome', 
-                    nexusUrl: '172.31.15.204:8081', 
+                    credentialsId: 'Nexus',
+                    groupId: 'in.javahome',
+                    nexusUrl: '127.0.0.1:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: nexusRepoName, 
